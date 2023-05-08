@@ -13,5 +13,6 @@ def countdown(t):
     sys.exit()
 
 if __name__ == '__main__':
-    t = 25 * 60
+    t = int(input("请输入要专注的时间（以分钟为单位）: "))
+    t *= 60
     countdown(t)
