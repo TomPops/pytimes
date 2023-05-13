@@ -10,4 +10,4 @@ while total_time:
     time.sleep(1) # 暂停1秒
     total_time -= 1
 
-print('Focus time is over!') # 当专注时间结束时输出提示信息
+print('专注时间程序已结束!') # 当专注时间结束时输出提示信息
